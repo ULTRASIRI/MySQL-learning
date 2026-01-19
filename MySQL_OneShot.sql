@@ -53,10 +53,6 @@ select rollno, name, marks
 from student;
 select * from teacherLookup;
 
-
-
-
-
 --
 --
 -- join 
@@ -139,14 +135,11 @@ from employees as a
 join employees as b
 on a.id=b.manager_id;
 
-
-
-
-
-
-
-
-
+--
+--
+-- basics
+--
+--
 select name, marks from student where marks>80;
 
 select * from student
